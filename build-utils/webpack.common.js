@@ -24,19 +24,6 @@ module.exports = {
           },
           "css-loader"
         ]
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif|pdf)$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]",
-              outputPath: "assets/"
-            }
-          }
-          // 'file-loader'
-        ]
       }
     ]
   },
@@ -44,20 +31,11 @@ module.exports = {
   resolve: {
     extensions: ["*", ".js", ".jsx"]
   },
-  // bundled source files should be put in the dist folder as bundle.js
-  output: {
-    path: path.resolve(__dirname, "../", "dist"),
-    publicPath: "/",
-    filename: "[name].[hash].js"
-  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "../", "src/index.html")
     }),
-    new MiniCssExtractPlugin({
-      filename: "[name].[hash].css"
-    })
   ]
 };

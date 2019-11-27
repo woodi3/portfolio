@@ -9,7 +9,7 @@
     "build": "webpack --config build-utils/webpack.config.js --env.env=prod",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/portfolio"
   },
   "keywords": [],
   "author": "",

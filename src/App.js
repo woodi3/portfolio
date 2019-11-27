@@ -5,15 +5,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { HomeView, ProjectsView } from './views';
+import { HomeView } from './views';
 
 export default function App() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/projects">
-                    <ProjectsView />
-                </Route>
                 <Route path="/">
                     <HomeView />
                 </Route>
