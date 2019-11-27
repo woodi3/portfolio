@@ -22,7 +22,7 @@ module.exports = {
     ]
   },
   output: {
-    path: path.resolve(__dirname, "../", "dist"),
+    path: path.resolve(__dirname, "../", "dist/portfolio"),
     publicPath: "/portfolio/",
     filename: "[name].[hash].js"
   },

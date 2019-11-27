@@ -9,7 +9,12 @@ import "./HomeView.css"
 const ProjectItem = ({ isImgRight, ...rest }) =>
   isImgRight ? (
     <Row style={{ paddingTop: 64, paddingBottom: 64 }}>
-      <Col sm={12} md={4} style={{ marginTop: ".5rem", marginBottom: ".5rem" }}>
+      <Col
+        sm={12}
+        md={4}
+        mdOrder={1}
+        style={{ marginTop: ".5rem", marginBottom: ".5rem" }}
+      >
         <h4 className="project-heading">{rest.projectTitle}</h4>
         <p className="project-description">{rest.projectDescription}</p>
         <div style={{ textAlign: "center" }}>
@@ -28,6 +33,7 @@ const ProjectItem = ({ isImgRight, ...rest }) =>
       <Col
         xsOrder="first"
         smOrder="first"
+        mdOrder={1}
         sm={12}
         md={7}
         alignSelf="center"
@@ -45,6 +51,7 @@ const ProjectItem = ({ isImgRight, ...rest }) =>
         sm={12}
         xsOrder="first"
         smOrder="first"
+        mdOrder={1}
         md={7}
         alignSelf="center"
         style={{ marginTop: ".5rem", marginBottom: ".5rem" }}
@@ -55,7 +62,12 @@ const ProjectItem = ({ isImgRight, ...rest }) =>
         />
       </Col>
       <Col hiddenSmDown md={1} mdOrder={1}></Col>
-      <Col sm={12} md={4} style={{ marginTop: ".5rem", marginBottom: ".5rem" }}>
+      <Col
+        sm={12}
+        md={4}
+        mdOrder={1}
+        style={{ marginTop: ".5rem", marginBottom: ".5rem" }}
+      >
         <h4 className="project-heading">{rest.projectTitle}</h4>
         <p className="project-description">{rest.projectDescription}</p>
         <div style={{ textAlign: "center" }}>
