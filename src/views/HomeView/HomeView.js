@@ -8,6 +8,7 @@ import beerGallery from '../../../assets/beer-gallery-screenshot.png'
 import quizMaker from '../../../assets/quiz-maker-screenshot.png'
 import socialMediaSucks from "../../../assets/social-media-sucks.jpeg"
 import flappyBird from "../../../assets/flappy-bird.jpeg"
+import resumeBuilder from "../../../assets/resume-builder-screenshot.png"
 import Resume from '../../../assets/Detailed_Resume.pdf'
 import ProjectItem from './ProjectItem'
 
@@ -36,6 +37,23 @@ export const HomeView = () => {
           },
           {
             url: "https://github.com/woodi3/quiz-maker",
+            text: "VIEW GITHUB"
+          }
+        ]
+      },
+      {
+        projectTitle: "VUE.JS RESUME BUILDER",
+        projectDescription: `A resume generator that outputs a PDF file. 
+        I built the application using Vue.js with Vuex as the store. 
+        It's a simple utility that still has some more work to do (mobile layouts, more templates, etc.).`
+        img: resumeBuilder,
+        links: [
+          {
+            url: "https://mystifying-perlman-e05aac.netlify.com/#/",
+            text: "VIEW LIVE"
+          },
+          {
+            url: "https://github.com/woodi3/vue-resume",
             text: "VIEW GITHUB"
           }
         ]
@@ -80,7 +98,7 @@ export const HomeView = () => {
         img: flappyBird,
         links: [
           {
-            url: "https://github.com/woodi3/vue-flappy",
+            url: "https://confident-ramanujan-149ee3.netlify.com/",
             text: "VIEW LIVE"
           },
           {
