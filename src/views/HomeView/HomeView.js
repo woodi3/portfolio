@@ -45,7 +45,7 @@ export const HomeView = () => {
         projectTitle: "VUE.JS RESUME BUILDER",
         projectDescription: `A resume generator that outputs a PDF file. 
         I built the application using Vue.js with Vuex as the store. 
-        It's a simple utility that still has some more work to do (mobile layouts, more templates, etc.).`
+        It's a simple utility that still has some more work to do (mobile layouts, more templates, etc.).`,
         img: resumeBuilder,
         links: [
           {
