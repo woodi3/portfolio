@@ -19,15 +19,15 @@ export const MEDIA_QUERIES = {
 
 export const theme = {
     primary: { 
-        text: "#7b1fa2",
-        bg: "#7b1fa2",
+        text: "#310c40",
+        bg: "#310c40",
         bgDark: "#240930",
-        bgLight: "#d7bbe3"
+        bgLight: "#7b1fa2"
     },
     grey: {
-        text: "#656565",
-        bg: "#656565",
+        text: "#464646",
+        bg: "#464646",
         bgDark: "#141414",
-        bgLight: "#e0e0e0"
+        bgLight: "#868686"
     }
 }

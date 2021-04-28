@@ -110,17 +110,18 @@ export const HomeView = () => {
     ];
     const introText = `hello! my name is`
     const nameText = (
-        <span>
-            william wood <span className="and-symbol" style={{color: theme.primary.bgLight}}>&</span> 
-            <br />
-            I'm a software developer
-        </span>
+      <span>
+          alex wood <span className="and-symbol" style={{color: theme.primary.bgLight}}>&</span> 
+          <br />
+          I'm a senior software engineer
+      </span>
     )
     const elevatorPitch = (
-        <span>
-            I'm a determined software developer currently improving the efficiency of client and employee benefit enrollment at The Benefit Company. 
-            You can find my recent projects below or on my github: <CustomLink bold href="https://github.com/woodi3">woodi3</CustomLink>
-        </span>
+      <span>
+        I'm a determined engineer currently improving customer experience for customers at Genesys Cloud.
+        Currently, I'm interested in creative solutions that take into consideration accessbility.
+        You can find my recent projects below or <CustomLink bold href="https://github.com/woodi3">on my github</CustomLink>.
+      </span>
     )
     const skillSetHeading = (
       <h2 className="skillset-heading">
@@ -137,9 +138,9 @@ export const HomeView = () => {
             with understanding of server processing and development. As well, I have some experience with 
             mobile development. I enjoy delivering effortless user experience and bringing designs to life.
             Working to solve complex and challenging problems is what makes me enjoy programming
-            as much as I do. My favorite languages are Javascript and C#. Aside from the developing, I enjoy teaching newcomers about programming
-            and the awesome things you can do with code. Currently, I am a Software Developer at
-            The Benefit Company.
+            as much as I do. My favorite language is Javascript. Aside from the developing, I enjoy teaching newcomers about programming
+            and the awesome things you can do with code. Currently, I am a Senior Software Engineer at
+            Genesys Cloud.
         </p>
     )
     
